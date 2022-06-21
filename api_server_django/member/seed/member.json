@@ -1,0 +1,16 @@
+[
+    {
+        "model": "member.member",
+        "pk": 1,
+        "fields": {
+          "nickname": "admin",
+          "email": "admin@gmail.com",
+          "password": "admin",
+          "is_superuser": "1",
+          "is_active": "1",
+          "role": "1023",
+          "amazon_email": "",
+          "amazon_password": ""
+        }
+    }
+]

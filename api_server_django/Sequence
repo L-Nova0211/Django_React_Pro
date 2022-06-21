@@ -1,0 +1,20 @@
+$ pipenv install django~=3.1.0
+$ pipenv install djangorestframework==3.12.0
+$ pipenv install pygments==2.5.2
+
+
+django-admin.py startproject tutorial .
+python manage.py startapp snippets
+
+$ python manage.py makemigrations snippets
+$ python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py runserver
+
+# generate token of vitor user
+python manage.py drf_create_token vitor
+
+
+pip3 freeze > requirements.txt
